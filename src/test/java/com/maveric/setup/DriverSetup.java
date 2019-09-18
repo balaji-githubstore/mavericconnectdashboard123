@@ -95,12 +95,15 @@ public class DriverSetup {
 
 	
 	// extent report start
+	
+	
+	
 	@AfterMethod
 	public void getResult(ITestResult result) throws IOException {
 		if (result.getStatus() == ITestResult.FAILURE) {
 			test.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " FAILED ", ExtentColor.RED));
 			test.fail(result.getThrowable());    
-			//screenshot
+			//screenshot hello
 			String screenShotPath = capture(driver, result.getName());
 			test.log(Status.FAIL, "Snapshot below:");
 			test.addScreenCaptureFromPath(screenShotPath);
