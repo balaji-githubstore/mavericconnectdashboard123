@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\Mine\Company\MavericSep\JavaSelenium\MavericConnect\testng_addtimecart.xml</span>
+                    <span>D:\Mine\Company\Maveric-September\JavaSelenium\MavericConnect\testng_addtimecart.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.maveric.mavericconnecttest.AddTimeCartTest" hash-for-method="timeCartTest">timeCartTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.maveric.mavericconnecttest.LoginTest" hash-for-method="invalidCredentialTest">invalidCredentialTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.maveric.mavericconnecttest.LoginTest" hash-for-method="invalidCredentialsTest(bala123@gmail.con, pass123)">invalidCredentialsTest(bala123@gmail.con, pass123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.maveric.mavericconnecttest.LoginTest" hash-for-method="invalidCredentialsTest(bala789@gmail.com, pass567)">invalidCredentialsTest(bala789@gmail.com, pass567)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.maveric.mavericconnecttest.LoginTest" hash-for-method="invalidCredentialsTest(bala456@gmail.com, pass456)">invalidCredentialsTest(bala456@gmail.com, pass456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,48 +132,49 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.maveric.mavericconnecttest.AddTimeCartTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.maveric.mavericconnecttest.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="timeCartTest">
-                  </a> <!-- timeCartTest -->
-                  <span class="method-name">timeCartTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[text()=&apos;Timecard&apos;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;BALAJI&apos;, ip: &apos;192.168.126.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37524/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 23378e12-7e74-4442-a02a-5e86c5079e6b
-*** Element info: {Using=xpath, value=//*[text()=&apos;Timecard&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.maveric.pageobjects.MavericDashboardPage.mouserHoverAndClickOnAddToTimeCart(MavericDashboardPage.java:36)
-	at com.maveric.mavericconnecttest.AddTimeCartTest.timeCartTest(AddTimeCartTest.java:40)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
+                  <a name="invalidCredentialTest">
+                  </a> <!-- invalidCredentialTest -->
+                  <span class="method-name">invalidCredentialTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidCredentialsTest(bala123@gmail.con, pass123)">
+                  </a> <!-- invalidCredentialsTest(bala123@gmail.con, pass123) -->
+                  <span class="method-name">invalidCredentialsTest</span>
+                  <span class="parameters">(bala123@gmail.con, pass123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidCredentialsTest(bala789@gmail.com, pass567)">
+                  </a> <!-- invalidCredentialsTest(bala789@gmail.com, pass567) -->
+                  <span class="method-name">invalidCredentialsTest</span>
+                  <span class="parameters">(bala789@gmail.com, pass567)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidCredentialsTest(bala456@gmail.com, pass456)">
+                  </a> <!-- invalidCredentialsTest(bala456@gmail.com, pass456) -->
+                  <span class="method-name">invalidCredentialsTest</span>
+                  <span class="parameters">(bala456@gmail.com, pass456)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Mine\Company\MavericSep\JavaSelenium\MavericConnect\testng_addtimecart.xml</span>
+            <span class="header-content">D:\Mine\Company\Maveric-September\JavaSelenium\MavericConnect\testng_addtimecart.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -166,9 +182,9 @@ Session ID: 23378e12-7e74-4442-a02a-5e86c5079e6b
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ch&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.maveric.mavericconnecttest.AddTimeCartTest&quot;/&gt;
+      &lt;class name=&quot;com.maveric.mavericconnecttest.LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -208,16 +224,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'timeCartTest')
-data.setCell(0, 2, 'com.maveric.mavericconnecttest.AddTimeCartTest')
-data.setCell(0, 3, 5870);
+data.setCell(0, 1, 'invalidCredentialTest')
+data.setCell(0, 2, 'com.maveric.mavericconnecttest.LoginTest')
+data.setCell(0, 3, 3424);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'invalidCredentialsTest')
+data.setCell(1, 2, 'com.maveric.mavericconnecttest.LoginTest')
+data.setCell(1, 3, 1352);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'invalidCredentialsTest')
+data.setCell(2, 2, 'com.maveric.mavericconnecttest.LoginTest')
+data.setCell(2, 3, 1228);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invalidCredentialsTest')
+data.setCell(3, 2, 'com.maveric.mavericconnecttest.LoginTest')
+data.setCell(3, 3, 1213);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -232,9 +260,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.maveric.mavericconnecttest.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validCredentialTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -243,34 +278,54 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.maveric.mavericconnecttest.AddTimeCartTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.maveric.mavericconnecttest.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">reportSetUp(ch)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">setUp(ie)</span>
-                <span class="method-start">162 ms</span>
+                <span class="method-name">setUp(ch)</span>
+                <span class="method-start">200 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">timeCartTest</span>
-                <span class="method-start">2339 ms</span>
+                <span class="method-name">invalidCredentialTest</span>
+                <span class="method-start">14430 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">getResult([TestResult name=timeCartTest status=FAILURE method=AddTimeCartTest.timeCartTest()[pri:0, instance:c...)</span>
-                <span class="method-start">8215 ms</span>
+                <span class="method-name">getResult([TestResult name=invalidCredentialTest status=SUCCESS method=LoginTest.invalidCredentialTest()[pri:0...)</span>
+                <span class="method-start">17857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">invalidCredentialsTest(bala123@gmail.con, pass123)</span>
+                <span class="method-start">18645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=invalidCredentialsTest status=SUCCESS method=LoginTest.invalidCredentialsTest(java....)</span>
+                <span class="method-start">19999 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">invalidCredentialsTest(bala456@gmail.com, pass456)</span>
+                <span class="method-start">20000 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=invalidCredentialsTest status=SUCCESS method=LoginTest.invalidCredentialsTest(java....)</span>
+                <span class="method-start">21215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">invalidCredentialsTest(bala789@gmail.com, pass567)</span>
+                <span class="method-start">21216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=invalidCredentialsTest status=SUCCESS method=LoginTest.invalidCredentialsTest(java....)</span>
+                <span class="method-start">22445 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">browserQuit</span>
-                <span class="method-start">8234 ms</span>
+                <span class="method-start">22447 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8815 ms</span>
+                <span class="method-start">23599 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

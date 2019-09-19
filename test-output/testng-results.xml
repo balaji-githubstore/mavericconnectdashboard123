@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8609" started-at="2019-09-18T18:31:55 IST" finished-at="2019-09-18T18:32:04 IST">
+  <suite name="Suite" duration-ms="23034" started-at="2019-09-19T15:26:40 IST" finished-at="2019-09-19T15:27:03 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8609" started-at="2019-09-18T18:31:55 IST" finished-at="2019-09-18T18:32:04 IST">
-      <class name="com.maveric.mavericconnecttest.AddTimeCartTest">
-        <test-method status="PASS" signature="reportSetUp(java.lang.String)[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@614ddd49]" name="reportSetUp" is-config="true" duration-ms="160" started-at="2019-09-18T18:31:55 IST" finished-at="2019-09-18T18:31:55 IST">
+    <test name="Test" duration-ms="23034" started-at="2019-09-19T15:26:40 IST" finished-at="2019-09-19T15:27:03 IST">
+      <class name="com.maveric.mavericconnecttest.LoginTest">
+        <test-method status="PASS" signature="reportSetUp(java.lang.String)[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="reportSetUp" is-config="true" duration-ms="197" started-at="2019-09-19T15:26:39 IST" finished-at="2019-09-19T15:26:40 IST">
           <params>
             <param index="0">
               <value>
@@ -18,148 +18,122 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSetUp -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@614ddd49]" name="setUp" is-config="true" duration-ms="2158" started-at="2019-09-18T18:31:55 IST" finished-at="2019-09-18T18:31:58 IST">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="setUp" is-config="true" duration-ms="14213" started-at="2019-09-19T15:26:40 IST" finished-at="2019-09-19T15:26:54 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ie]]>
+                <![CDATA[ch]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="timeCartTest()[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@614ddd49]" name="timeCartTest" duration-ms="5870" started-at="2019-09-18T18:31:58 IST" finished-at="2019-09-18T18:32:03 IST">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with xpath == //*[text()='Timecard']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BALAJI', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37524/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 23378e12-7e74-4442-a02a-5e86c5079e6b
-*** Element info: {Using=xpath, value=//*[text()='Timecard']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[text()='Timecard']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BALAJI', ip: '192.168.126.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37524/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 23378e12-7e74-4442-a02a-5e86c5079e6b
-*** Element info: {Using=xpath, value=//*[text()='Timecard']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.maveric.pageobjects.MavericDashboardPage.mouserHoverAndClickOnAddToTimeCart(MavericDashboardPage.java:36)
-at com.maveric.mavericconnecttest.AddTimeCartTest.timeCartTest(AddTimeCartTest.java:40)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="invalidCredentialTest()[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="invalidCredentialTest" duration-ms="3424" started-at="2019-09-19T15:26:54 IST" finished-at="2019-09-19T15:26:57 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- timeCartTest -->
-        <test-method status="FAIL" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@614ddd49]" name="getResult" is-config="true" duration-ms="7" started-at="2019-09-18T18:32:03 IST" finished-at="2019-09-18T18:32:03 IST">
+        </test-method> <!-- invalidCredentialTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="getResult" is-config="true" duration-ms="9" started-at="2019-09-19T15:26:57 IST" finished-at="2019-09-19T15:26:57 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=timeCartTest status=FAILURE method=AddTimeCartTest.timeCartTest()[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@614ddd49] output={null}]]]>
+                <![CDATA[[TestResult name=invalidCredentialTest status=SUCCESS method=LoginTest.invalidCredentialTest()[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.maveric.setup.DriverSetup.getResult(DriverSetup.java:104)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:658)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:642)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@614ddd49]" name="browserQuit" is-config="true" duration-ms="536" started-at="2019-09-18T18:32:04 IST" finished-at="2019-09-18T18:32:04 IST">
+        <test-method status="PASS" signature="invalidCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="invalidCredentialsTest" duration-ms="1352" started-at="2019-09-19T15:26:58 IST" data-provider="InvalidCredentials" finished-at="2019-09-19T15:26:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bala123@gmail.con]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-19T15:26:59 IST" finished-at="2019-09-19T15:26:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidCredentialsTest status=SUCCESS method=LoginTest.invalidCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.maveric.mavericconnecttest.LoginTest@694e1548] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="invalidCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="invalidCredentialsTest" duration-ms="1213" started-at="2019-09-19T15:26:59 IST" data-provider="InvalidCredentials" finished-at="2019-09-19T15:27:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bala456@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-19T15:27:01 IST" finished-at="2019-09-19T15:27:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidCredentialsTest status=SUCCESS method=LoginTest.invalidCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.maveric.mavericconnecttest.LoginTest@694e1548] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="invalidCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="invalidCredentialsTest" duration-ms="1228" started-at="2019-09-19T15:27:01 IST" data-provider="InvalidCredentials" finished-at="2019-09-19T15:27:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bala789@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentialsTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="getResult" is-config="true" duration-ms="1" started-at="2019-09-19T15:27:02 IST" finished-at="2019-09-19T15:27:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidCredentialsTest status=SUCCESS method=LoginTest.invalidCredentialsTest(java.lang.String, java.lang.String)[pri:1, instance:com.maveric.mavericconnecttest.LoginTest@694e1548] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="browserQuit()[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="browserQuit" is-config="true" duration-ms="785" started-at="2019-09-19T15:27:02 IST" finished-at="2019-09-19T15:27:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@614ddd49]" name="tearDown" is-config="true" duration-ms="3" started-at="2019-09-18T18:32:04 IST" finished-at="2019-09-18T18:32:04 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.maveric.mavericconnecttest.LoginTest@694e1548]" name="tearDown" is-config="true" duration-ms="467" started-at="2019-09-19T15:27:03 IST" finished-at="2019-09-19T15:27:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.maveric.mavericconnecttest.AddTimeCartTest -->
+      </class> <!-- com.maveric.mavericconnecttest.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

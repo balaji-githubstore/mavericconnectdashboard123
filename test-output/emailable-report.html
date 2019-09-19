@@ -9,35 +9,13 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,609</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,034</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.maveric.mavericconnecttest.AddTimeCartTest</td><td><a href="#m0">getResult</a></td><td rowspan="1">1568811723988</td><td rowspan="1">7</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.maveric.mavericconnecttest.AddTimeCartTest</td><td><a href="#m1">timeCartTest</a></td><td rowspan="1">1568811718112</td><td rowspan="1">5870</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.maveric.mavericconnecttest.LoginTest</td><td><a href="#m0">invalidCredentialTest</a></td><td rowspan="1">1568887014304</td><td rowspan="1">3424</td></tr><tr class="passedeven"><td><a href="#m1">invalidCredentialsTest</a></td><td rowspan="3">1568887018519</td><td rowspan="3">1352</td></tr><tr class="passedeven"><td><a href="#m2">invalidCredentialsTest</a></td></tr><tr class="passedeven"><td><a href="#m3">invalidCredentialsTest</a></td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.maveric.mavericconnecttest.AddTimeCartTest#getResult</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=timeCartTest status=FAILURE method=AddTimeCartTest.timeCartTest()[pri:0, instance:com.maveric.mavericconnecttest.AddTimeCartTest@614ddd49] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
-	at com.maveric.setup.DriverSetup.getResult(DriverSetup.java:104)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.maveric.mavericconnecttest.AddTimeCartTest#timeCartTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[text()=&apos;Timecard&apos;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;BALAJI&apos;, ip: &apos;192.168.126.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:37524/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 23378e12-7e74-4442-a02a-5e86c5079e6b
-*** Element info: {Using=xpath, value=//*[text()=&apos;Timecard&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.maveric.pageobjects.MavericDashboardPage.mouserHoverAndClickOnAddToTimeCart(MavericDashboardPage.java:36)
-	at com.maveric.mavericconnecttest.AddTimeCartTest.timeCartTest(AddTimeCartTest.java:40)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.maveric.mavericconnecttest.LoginTest#invalidCredentialTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.maveric.mavericconnecttest.LoginTest#invalidCredentialsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>bala123@gmail.con</td><td>pass123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.maveric.mavericconnecttest.LoginTest#invalidCredentialsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>bala789@gmail.com</td><td>pass567</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.maveric.mavericconnecttest.LoginTest#invalidCredentialsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>bala456@gmail.com</td><td>pass456</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
